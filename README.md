@@ -24,7 +24,7 @@ by Conditional Error Generation
 ### Author Andrej Karpathy, Justin Johnson, Li Fei-Fei
 
 | Problem  | 1.What is the performance of Long Short-Term Memory (LSTM) models in capturing long-range dependencies such as line lengths, quotes, and brackets, and how can interpretable cells within the LSTM architecture be identified and analyzed to improve LSTM models' performance? |
-|          | 2.How do LSTM models compare to finite horizon n-gram models in capturing long-range structural dependencies, and what areas for further study and improvement can be identified based on any remaining errors in the LSTM models?
+|          | 2.How do LSTM models compare to finite horizon n-gram models in capturing long-range structural dependencies, and what areas for further study and improvement can be identified based on any remaining errors in the LSTM models? |
 | --- | --- |
 | Key Related Work  |The related work discusses the success of Long Short Term Memory networks (LSTM) in sequence learning tasks and various proposals for improving RNN architectures. The authors focus on studying the properties of LSTM representations and predicting individual error types. Their work complements previous studies on long-term interactions in recurrent networks and draws inspiration from object detection analysis. |
 | Datasets | Penn Treebank dataset Marcus et al. (1993). |
