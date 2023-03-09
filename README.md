@@ -18,3 +18,14 @@ by Conditional Error Generation
 | Results  | Achieves better performance than all compared data augmentation methods on the CGED-2018 and CGED-2020 benchmarks. |
 | In term of models   | The CNEG model can generate errors that do not appear in the training dataset. |
 | In term of measurement  | The perplexities of generated spans are measured using a BERT that has already been trained. |
+
+
+## 2. VISUALIZING AND UNDERSTANDING RECURRENT NETWORKS
+### Author Andrej Karpathy, Justin Johnson, Li Fei-Fei
+
+| Problem  | 1.What is the performance of Long Short-Term Memory (LSTM) models in capturing long-range dependencies such as line lengths, quotes, and brackets, and how can interpretable cells within the LSTM architecture be identified and analyzed to improve LSTM models' performance? |
+|          | 2.How do LSTM models compare to finite horizon n-gram models in capturing long-range structural dependencies, and what areas for further study and improvement can be identified based on any remaining errors in the LSTM models?
+| --- | --- |
+| Key Related Work  |The related work discusses the success of Long Short Term Memory networks (LSTM) in sequence learning tasks and various proposals for improving RNN architectures. The authors focus on studying the properties of LSTM representations and predicting individual error types. Their work complements previous studies on long-term interactions in recurrent networks and draws inspiration from object detection analysis. |
+| Solution  | The authors of this study used character-level language models to explore the predictions and learned representations of long short-term memory networks (LSTMs) on real-world data. Their experiments, which included qualitative visualization and cell activation statistics, demonstrated that RNNs are able to learn powerful and often interpretable long-range interactions on real-world data.Also conducted an error analysis, which allowed them to break down cross entropy loss into several interpretable categories and identify the sources of remaining limitations in the model. |
+| Results  | The study revealed that increasing the size of the model significantly reduced errors in the n-gram category, indicating that more advanced structural changes might be necessary to address the remaining errors. |
