@@ -2,8 +2,7 @@
 This repository is for submitting homework for AT82.05 Artificial Intelligence:NLU at Asian Institute of Technology
 
 ## Paper reading assignment
-## 1. Improving Chinese Grammatical Error Detection via Data augmentation
-by Conditional Error Generation
+## 1. Improving Chinese Grammatical Error Detection via Data augmentation by Conditional Error Generation
 ### Tianchi Yue, Shulin Liu, Huihui Cai, Tao Yang, Shengkang Song, Tinghao Yu
 
 | Problem  | How to detect grammatical errors in Chinese texts.|
@@ -30,3 +29,17 @@ by Conditional Error Generation
 |          | Hutter Prize 100MB of Wikipedia dataset Hutter (2012). |
 | Solution  | The authors of this study used character-level language models to explore the predictions and learned representations of long short-term memory networks (LSTMs) on real-world data. Their experiments, which included qualitative visualization and cell activation statistics, demonstrated that RNNs are able to learn powerful and often interpretable long-range interactions on real-world data.Also conducted an error analysis, which allowed them to break down cross entropy loss into several interpretable categories and identify the sources of remaining limitations in the model. |
 | Results  | The study revealed that increasing the size of the model significantly reduced errors in the n-gram category, indicating that more advanced structural changes might be necessary to address the remaining errors. |
+
+## 3. Semi-supervised sequence tagging with bidirectional language models
+### Matthew E. Peters, Waleed Ammar, Chandra Bhagavatula, Russell Power
+
+| Problem  | What is the proposed approach for adding pretrained context embeddings to NLP systems and how is it different from existing approaches?|
+| --- | --- |
+| Proposal | adding pretrained context embeddings from bidirectional language models to NLP systems to produce context-sensitive representations. |
+| Objective | To demonstrate a semi-supervised approach for improving the performance of neural network architectures for natural language processing (NLP) tasks such as named entity recognition (NER) and chunking. |
+| Datasets | d entity recognition (NER) and chunking |
+| Key Related Work  | 1. Unlabeled data: The TagLM method is inspired by pre-trained word embeddings in supervised sequence tagging models and is similar to Li and McCallum's (2005) probabilistic generative model. Other semi-supervised learning methods for structured prediction problems include co-training, expectation maximization, structural learning, and maximum discriminant functions. LM embeddings are related to methods for learning sentence and document encoders from unlabeled data, which can be used for text classification and textual entailment among other tasks. Dai and Le (2015) pre-trained LSTMs using language models and sequence autoencoders for classification tasks, whereas TagLM uses unlabeled data to learn token-in-context embeddings.|
+|                   | 2. Interpreting RNN states. The article cites previous research on interpreting RNN activations, including Linzen et al. (2016), who demonstrated that LSTM units could learn to predict singular-plural distinctions, and Karpathy et al. (2015), who visualized character level LSTM states and identified that individual cells capture long-range dependencies such as line lengths, quotes, and brackets. The authors state that their work complements these studies by demonstrating that LM states are useful for downstream tasks as a means of interpreting what they learn.|
+|                   | 3. Other sequence tagging models: Bidirectional RNN models are currently the state-of-the-art for sequence tagging problems. Other sequence tagging models have also been proposed, but it is uncertain if LM embeddings could be effectively used as additional features in these models due to potential limitations in their complexity. |
+| Solution  | The approach involves incorporating pre-trained context embeddings from bidirectional language models into the NLP systems. This method is applied to sequence labeling tasks, specifically named entity recognition (NER) and chunking. |
+| Results  | The paper demonstrates that the addition of pre-trained context embeddings improves the performance of the NLP system and achieves state-of-the-art results on the two standard datasets for NER and chunking. This approach outperforms previous systems that use other forms of transfer or joint learning with additional labeled data and task-specific gazetteers.|
