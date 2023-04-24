@@ -6,3 +6,11 @@ To achieve this Language Modeling assignment, we employed an LSTM model to forec
 
 Below are some screenshots of the web application:
 
+### Homepage of the Code Generator
+![Home Page](https://raw.githubusercontent.com/Maria-Rumki/NLP-Assignments/main/Language%20Model/images/Homepage.PNG)
+
+### Entering a Few Words of Codes
+![Entering Few Words Codes](https://raw.githubusercontent.com/Maria-Rumki/NLP-Assignments/main/Language%20Model/images/Input.PNG)
+
+### Prediction Based on Given Input Codes
+![Prediction Based Given Input Codes](https://raw.githubusercontent.com/Maria-Rumki/NLP-Assignments/main/Language%20Model/images/Output.PNG)
