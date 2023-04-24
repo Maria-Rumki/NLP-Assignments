@@ -10,7 +10,7 @@ A few screenshots from the web application are attached below:
 ![Home Page](https://raw.githubusercontent.com/Maria-Rumki/NLP-Assignments/main/Resume%20Parser/Image/Home.PNG)
 
 ### Uploading Resume
-![Uploading Resume ](https://github.com/aimanlameesa/Natural-Language-Processing/blob/main/Assignments/Resume%20Parser/images/upload.png)
+![Uploading Resume ](https://raw.githubusercontent.com/Maria-Rumki/NLP-Assignments/main/Resume%20Parser/Image/upload.PNG)
 
 ### Education and Skills Extracted from Parsed Resume
-![Result Page after parsing Resume](https://github.com/aimanlameesa/Natural-Language-Processing/blob/main/Assignments/Resume%20Parser/images/parsed_resume.png)
+![Result Page after parsing Resume](https://github.com/Maria-Rumki/NLP-Assignments/blob/main/Resume%20Parser/Image/Parser%20resume.PNG)
